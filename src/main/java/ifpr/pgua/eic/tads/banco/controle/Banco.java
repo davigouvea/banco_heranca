@@ -1,13 +1,16 @@
-package ifpr.pgua.eic.tads.banco;
+package ifpr.pgua.eic.tads.banco.controle;
 
 import java.util.ArrayList;
+
+import ifpr.pgua.eic.tads.banco.Entidades.ContaBancaria;
+import ifpr.pgua.eic.tads.banco.Entidades.Pessoa;
 
 public class Banco {
     
     private ArrayList<ContaBancaria> contas;
     private ArrayList<Pessoa> clientes;
 
-    private String nome;
+    public String nome;
 
 
     public Banco(String nome){
